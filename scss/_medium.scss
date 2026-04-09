@@ -1,0 +1,26 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+/* CARDS */
+.allcards {
+    grid-template-columns: repeat(4, 1fr);
+    section {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+    }
+    section:nth-child(5) {
+        grid-column: 2 / span 2;
+    }
+    p {
+        flex: 1;
+    }
+}
+
+
+
+
+footer div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
